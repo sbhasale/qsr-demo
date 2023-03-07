@@ -6,11 +6,11 @@ from azure.iot.device.aio import IoTHubDeviceClient
 from azure.iot.device import Message, MethodResponse
 
 app = Flask(__name__)
-conn_str = "HostName=iothub-swapnil.azure-devices.net;DeviceId=qsr;SharedAccessKey=RHBsdPxlTeEtLppL2s7tx5236YxU//6efF7xMGcCHaU="
+conn_str = ""
 server = 'qsr.database.windows.net'
 database = 'qsr'
 username = 'qsradmin'
-password = 'qsrP@ssword'   
+password = ''   
 driver= '{ODBC Driver 18 for SQL Server}'
 
 orders = [{"bag_no" : 1, "items" : [{"French Fries" : 1, "Cheeseburger" : 1, "Soda" : 1, "Chicken Nuggets" : 1}]},
